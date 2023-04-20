@@ -79,8 +79,19 @@ h1 { background-color: #F5A000;
 
 footer{color: white; text-align: center; padding-top: 20px; opacity: 0.4;}
    
-   
-  @keyframes rodar 
+   @keyframes rodar {
+    from{
+        width: 10px;
+        transform: rotate(0deg);
+
+    }
+    to{
+
+        width: 210px;
+        transform: rotate(360deg);
+    }
+  }
+  
 
     
    
